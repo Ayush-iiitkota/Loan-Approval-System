@@ -1,0 +1,27 @@
+{
+  "selected_model": "logistic_regression",
+  "metrics": {
+    "logistic_regression": {
+      "accuracy": 0.8225,
+      "precision": 0.8133,
+      "recall": 0.8632,
+      "roc_auc": 0.8801
+    },
+    "random_forest": {
+      "accuracy": 0.7975,
+      "precision": 0.7937,
+      "recall": 0.8349,
+      "roc_auc": 0.8695
+    },
+    "xgboost": {
+      "accuracy": 0.76,
+      "precision": 0.7544,
+      "recall": 0.8113,
+      "roc_auc": 0.8311
+    }
+  },
+  "trained_at": "2026-08-15T06:35:25.544885+00:00",
+  "n_train": 1600,
+  "n_test": 400,
+  "version": "1.0.0"
+}
