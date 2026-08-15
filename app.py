@@ -56,8 +56,10 @@ if submitted:
     )
     st.progress(result["probability"])
 
-    st.subheader("Why?")
-    st.caption("Top factors pushing this decision (positive = toward approval).")
-    for f in result["top_factors"]:
-        arrow = "🟢 ▲" if f["impact"] > 0 else "🔴 ▼"
-        st.write(f"{arrow} `{f['feature']}` — impact {f['impact']:+.3f}")
+    # st.subheader("Why?")
+    # st.caption("Top factors pushing this decision (positive = toward approval).")
+    # for f in result["top_factors"]:
+    #   if f["impact"] > 0:
+    #     st.success(f"▲ {f['feature']} — Supports approval")
+    # else:
+    #     st.error(f"▼ {f['feature']} — Reduces approval chances")
