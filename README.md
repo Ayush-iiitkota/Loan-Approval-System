@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🏦 try-self — Loan Approval Prediction
+# 🏦 Loan Approval Prediction
 
 **An end-to-end machine learning system that predicts loan approval decisions — with explanations.**
 
